@@ -61,8 +61,8 @@ function totalCalculation(){
 // calculating subtotal
 
 function calculatingSubTotal(){
-    // debugger;
     let subtotal = 0;
+    
     const itemTotal = document.getElementsByClassName('item-total');
     for(let i = 0; i < itemTotal.length; i++){
         const element = itemTotal[i];
